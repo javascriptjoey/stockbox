@@ -29,8 +29,13 @@ class CreateAccountViewController: UIViewController {
     @IBOutlet weak var emailView: UIView!
     @IBOutlet weak var passwordView: UIView!
     @IBOutlet weak var alreadyMemberText: UILabel!
+    @IBOutlet weak var errorLabel: UILabel!
     
+    @IBOutlet weak var fullNameTextField: UITextField!
     
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
     
     
     
@@ -52,8 +57,15 @@ class CreateAccountViewController: UIViewController {
         loginButton.layer.cornerRadius = 5
         appleSignInButton.layer.cornerRadius = 5 
         alreadyMemberText.halfTextColorChange(fullText: "I'm already a member, Sign In ", changeText: "Sign In")
+        
+        setUpElements()
     }
     
+    func setUpElements(){
+        errorLabel.alpha = 0
+        
+       
+    }
 
     /*
     // MARK: - Navigation

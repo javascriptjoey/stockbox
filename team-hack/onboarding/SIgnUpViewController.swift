@@ -36,11 +36,11 @@ class SIgnUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var imaNewUserLabel: UILabel!
     
     @IBAction func fogotPasswordButton(_ sender: Any) {
-         
+         performSegue(withIdentifier: "segueToForgotPassword", sender: self)
     }
     
     @IBAction func loginButton(_ sender: Any) {
-        
+        performSegue(withIdentifier: "segueToEntryPoint", sender: self)
     }
     
     @IBOutlet weak var appleButton: UIButton!
@@ -54,6 +54,7 @@ class SIgnUpViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    @IBOutlet weak var errorLabel: UILabel!
     
     
     
@@ -77,7 +78,17 @@ class SIgnUpViewController: UIViewController, UITextFieldDelegate {
         self.hideKeyboardWhenTappedAround()
         self.emailTextField.delegate = self
         self.passwordTextField.delegate = self
+        
+        
+        //abstracted element styling
+        setUpElements()
+        
 }
+    func setUpElements() {
+        errorLabel.isHidden = true
+        
+    }
+    
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
             self.view.endEditing(true)

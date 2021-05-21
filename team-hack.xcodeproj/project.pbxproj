@@ -13,7 +13,10 @@
 		3E1F496925E8513E00072B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F496725E8513E00072B88 /* LaunchScreen.storyboard */; };
 		3E2DDC4C25E8DDE100408984 /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E2DDC4B25E8DDE100408984 /* rocket.json */; };
 		3E2E831125FF302400D81F93 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */; };
+		3E6D2657262B9B2400DCFE3C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D2656262B9B2400DCFE3C /* Utilities.swift */; };
 		3E93661D25FEE10B00E7F6F8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */; };
+		3E9B159F265788BB006CF457 /* ItemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B159E265788BB006CF457 /* ItemOneViewController.swift */; };
+		3E9B15A226578904006CF457 /* ItemTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B15A126578904006CF457 /* ItemTwoViewController.swift */; };
 		3EA3B87D2602CAA200A13015 /* newStar.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3B87C2602CAA200A13015 /* newStar.json */; };
 		3EB6A48E25F8394A00705F9C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6A48D25F8394A00705F9C /* OnboardingViewController.swift */; };
 		3EB6A49525F87C8A00705F9C /* water.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6A49125F87C8A00705F9C /* water.json */; };
@@ -23,6 +26,10 @@
 		3EE6451025FF3986004E518C /* testKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6450F25FF3986004E518C /* testKeys.json */; };
 		3EE6451325FF3BD9004E518C /* emailEnvalope.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6451225FF3BD9004E518C /* emailEnvalope.json */; };
 		3EE6451826005838004E518C /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6451726005838004E518C /* star.json */; };
+		3EF5604B265721F300D3109F /* madeWithLove.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5604A265721F200D3109F /* madeWithLove.json */; };
+		3EF5605B265745BF00D3109F /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5605A265745BF00D3109F /* PasswordResetViewController.swift */; };
+		3EF5605E2657495900D3109F /* confirmation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5605D2657495900D3109F /* confirmation.json */; };
+		3EF5606126574A4600D3109F /* newCon.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5606026574A4600D3109F /* newCon.json */; };
 		3EF7EF6A25F9673D00A6363E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7EF6925F9673D00A6363E /* Onboarding.storyboard */; };
 		3EF7EF6D25F9923C00A6363E /* SIgnUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7EF6C25F9923C00A6363E /* SIgnUpViewController.swift */; };
 		3EF7EF7025F9925300A6363E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7EF6F25F9925300A6363E /* LogInViewController.swift */; };
@@ -42,7 +49,10 @@
 		3E1F496A25E8513E00072B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2DDC4B25E8DDE100408984 /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
 		3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3E6D2656262B9B2400DCFE3C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3E9B159E265788BB006CF457 /* ItemOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemOneViewController.swift; sourceTree = "<group>"; };
+		3E9B15A126578904006CF457 /* ItemTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTwoViewController.swift; sourceTree = "<group>"; };
 		3EA3B87C2602CAA200A13015 /* newStar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newStar.json; sourceTree = "<group>"; };
 		3EB6A48D25F8394A00705F9C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		3EB6A49125F87C8A00705F9C /* water.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = water.json; sourceTree = "<group>"; };
@@ -52,6 +62,10 @@
 		3EE6450F25FF3986004E518C /* testKeys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testKeys.json; sourceTree = "<group>"; };
 		3EE6451225FF3BD9004E518C /* emailEnvalope.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emailEnvalope.json; sourceTree = "<group>"; };
 		3EE6451726005838004E518C /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		3EF5604A265721F200D3109F /* madeWithLove.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = madeWithLove.json; sourceTree = "<group>"; };
+		3EF5605A265745BF00D3109F /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		3EF5605D2657495900D3109F /* confirmation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confirmation.json; sourceTree = "<group>"; };
+		3EF5606026574A4600D3109F /* newCon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newCon.json; sourceTree = "<group>"; };
 		3EF7EF6925F9673D00A6363E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		3EF7EF6C25F9923C00A6363E /* SIgnUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpViewController.swift; sourceTree = "<group>"; };
 		3EF7EF6F25F9925300A6363E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +124,10 @@
 				3EF7EF7925F9A3E700A6363E /* views */,
 				3EB6A48D25F8394A00705F9C /* OnboardingViewController.swift */,
 				3EF7EF6925F9673D00A6363E /* Onboarding.storyboard */,
+				3E9B15A126578904006CF457 /* ItemTwoViewController.swift */,
+				3E9B159E265788BB006CF457 /* ItemOneViewController.swift */,
+				3EF5605A265745BF00D3109F /* PasswordResetViewController.swift */,
+				3E6D2656262B9B2400DCFE3C /* Utilities.swift */,
 				3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */,
 				3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */,
 				3EF7EF6C25F9923C00A6363E /* SIgnUpViewController.swift */,
@@ -121,6 +139,9 @@
 		3EF7EF6225F87E2100A6363E /* anim */ = {
 			isa = PBXGroup;
 			children = (
+				3EF5606026574A4600D3109F /* newCon.json */,
+				3EF5605D2657495900D3109F /* confirmation.json */,
+				3EF5604A265721F200D3109F /* madeWithLove.json */,
 				3EE6451726005838004E518C /* star.json */,
 				3EE6451225FF3BD9004E518C /* emailEnvalope.json */,
 				3EE6450F25FF3986004E518C /* testKeys.json */,
@@ -225,11 +246,14 @@
 				3EB6A49625F87C8A00705F9C /* bitcoin.json in Resources */,
 				3E1F496625E8513E00072B88 /* Assets.xcassets in Resources */,
 				3EB6A49525F87C8A00705F9C /* water.json in Resources */,
+				3EF5605E2657495900D3109F /* confirmation.json in Resources */,
 				3EF7EF7625F9A38D00A6363E /* Slide.xib in Resources */,
 				3EF7EF6A25F9673D00A6363E /* Onboarding.storyboard in Resources */,
 				3EE6451826005838004E518C /* star.json in Resources */,
 				3EE6451025FF3986004E518C /* testKeys.json in Resources */,
+				3EF5604B265721F300D3109F /* madeWithLove.json in Resources */,
 				3EB6A49725F87C8A00705F9C /* future.json in Resources */,
+				3EF5606126574A4600D3109F /* newCon.json in Resources */,
 				3EE6451325FF3BD9004E518C /* emailEnvalope.json in Resources */,
 				3E2DDC4C25E8DDE100408984 /* rocket.json in Resources */,
 			);
@@ -285,11 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E93661D25FEE10B00E7F6F8 /* CreateAccountViewController.swift in Sources */,
+				3EF5605B265745BF00D3109F /* PasswordResetViewController.swift in Sources */,
+				3E9B15A226578904006CF457 /* ItemTwoViewController.swift in Sources */,
 				3EF7EF6D25F9923C00A6363E /* SIgnUpViewController.swift in Sources */,
 				3EF7EF7025F9925300A6363E /* LogInViewController.swift in Sources */,
 				3E2E831125FF302400D81F93 /* ResetPasswordViewController.swift in Sources */,
+				3E9B159F265788BB006CF457 /* ItemOneViewController.swift in Sources */,
 				3E1F495D25E8513C00072B88 /* AppDelegate.swift in Sources */,
 				3EF7EF7325F9A35A00A6363E /* Slide.swift in Sources */,
+				3E6D2657262B9B2400DCFE3C /* Utilities.swift in Sources */,
 				3E1F495F25E8513C00072B88 /* SceneDelegate.swift in Sources */,
 				3EB6A48E25F8394A00705F9C /* OnboardingViewController.swift in Sources */,
 			);
