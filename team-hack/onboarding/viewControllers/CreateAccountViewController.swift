@@ -16,14 +16,14 @@ class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var appleSignInButton: UIButton!
     @IBAction func appleSignInButton(_ sender: Any) {
+        
     }
     
     
     
     
     @IBAction func alreadyMemberSignInButton(_ sender: Any) {
-        
-    }
+        performSegue(withIdentifier: "returnToSIgnInVC", sender: self)    }
     
     @IBOutlet weak var fullNameView: UIView!
     @IBOutlet weak var emailView: UIView!

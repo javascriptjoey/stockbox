@@ -50,6 +50,7 @@ class SIgnUpViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var newUserSignUpButton: UIButton!
     @IBAction func newUserSignUpButton(_ sender: Any) {
+        performSegue(withIdentifier: "segueBackToCreateAccountVc", sender: self)
         
     }
     

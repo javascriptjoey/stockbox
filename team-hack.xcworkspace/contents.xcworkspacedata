@@ -4,6 +4,49 @@
    <FileRef
       location = "group:team-hack.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:/Users/joeyessak/Documents/GitHub/stockbox/anim"
+      name = "anim">
+      <FileRef
+         location = "group:anim/robot.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/newCon.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/confirmation.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/madeWithLove.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/star.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/emailEnvalope.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/testKeys.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/newStar.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/bitcoin.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/future.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/rain.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/water.json">
+      </FileRef>
+      <FileRef
+         location = "group:anim/rocket.json">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
