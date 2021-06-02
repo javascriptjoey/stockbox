@@ -11,10 +11,10 @@ import Foundation
 class APICaller {
     static let sharred = APICaller()
     
-    func fetchCompanies() -> Future<[String], Error> {
+    func fetchVideoGames() -> Future<[String], Error> {
         return Future { promise in
             DispatchQueue.main.asyncAfter(deadline: .now()+3) {
-                promise(.success(["Apple","Google","Microsoft", "Facebook"]))
+                promise(.success(["Doom", "wolfenstein 3d","Super Street Fighter 2","Mortal Kombat 2",]))
             }
         }
     }

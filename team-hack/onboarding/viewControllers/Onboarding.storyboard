@@ -768,10 +768,10 @@
             </objects>
             <point key="canvasLocation" x="-7759.420289855073" y="2854.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Red View Controller-->
         <scene sceneID="wfN-hJ-XYY">
             <objects>
-                <viewController id="IQH-4p-jnj" sceneMemberID="viewController">
+                <viewController id="IQH-4p-jnj" customClass="redViewController" customModule="team_hack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0bt-MU-bkf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

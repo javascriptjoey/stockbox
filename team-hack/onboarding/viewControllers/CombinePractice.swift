@@ -11,14 +11,22 @@ class MyCustomTableCell: UITableViewCell{
     private let button: UIButton = {
         let button = UIButton()
         button.backgroundColor = .systemPink
-        button.setTitle("Button", for: .normal)
+        button.setTitle("Button", for: .normal  )
         button.setTitleColor(.white, for: .normal)
         return button
     }()
     
+    let action = PassthroughSubject<String, Never>()
+    
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(button)
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+    }
+    
+    @objc private func didTapButton(){
+        action.send("Your doing some rad stuff joey")
     }
     
     required init?(coder: NSCoder) {
@@ -43,8 +51,7 @@ class CombinePractice: UIViewController, UITableViewDataSource{
     
     private var models = [String]()
     
-    var observer: AnyCancellable?
-    
+    var observers: [AnyCancellable] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +59,7 @@ class CombinePractice: UIViewController, UITableViewDataSource{
         tableView.dataSource = self
         tableView.frame = view.bounds
         
-        observer = APICaller.sharred.fetchCompanies()
+           APICaller.sharred.fetchVideoGames()
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in
                 switch completion {
@@ -64,7 +71,7 @@ class CombinePractice: UIViewController, UITableViewDataSource{
             }, receiveValue: {[weak self] value in
                 self?.models = value
                 self?.tableView.reloadData()
-            })
+            }).store(in: &observers)
         
     }
     
@@ -76,7 +83,9 @@ class CombinePractice: UIViewController, UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? MyCustomTableCell else {
             fatalError()
         }
-      //  cell.textLabel?.text =  models[indexPath.row]
+        cell.action.sink { string in
+            print(string)
+        }.store(in: &observers)
         return cell
     }
 }
