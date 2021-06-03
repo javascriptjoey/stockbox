@@ -40,7 +40,7 @@ class SIgnUpViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func loginButton(_ sender: Any) {
-        performSegue(withIdentifier: "segueToEntryPoint", sender: self)
+        performSegue(withIdentifier: "segueToMainStoryboard", sender: self)
     }
     
     @IBOutlet weak var appleButton: UIButton!

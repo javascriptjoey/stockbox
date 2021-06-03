@@ -14,6 +14,7 @@
 		3E2DDC4C25E8DDE100408984 /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E2DDC4B25E8DDE100408984 /* rocket.json */; };
 		3E2E831125FF302400D81F93 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */; };
 		3E6D2657262B9B2400DCFE3C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D2656262B9B2400DCFE3C /* Utilities.swift */; };
+		3E7EFB9D26685299007FFC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7EFB9C26685299007FFC4B /* Main.storyboard */; };
 		3E93661D25FEE10B00E7F6F8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */; };
 		3E9B159F265788BB006CF457 /* ItemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B159E265788BB006CF457 /* ItemOneViewController.swift */; };
 		3EA3B87D2602CAA200A13015 /* newStar.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3B87C2602CAA200A13015 /* newStar.json */; };
@@ -56,6 +57,7 @@
 		3E2DDC4B25E8DDE100408984 /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
 		3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		3E6D2656262B9B2400DCFE3C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3E7EFB9C26685299007FFC4B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		3E9B159E265788BB006CF457 /* ItemOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemOneViewController.swift; sourceTree = "<group>"; };
 		3EA3B87C2602CAA200A13015 /* newStar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newStar.json; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		3E1F495B25E8513C00072B88 /* team-hack */ = {
 			isa = PBXGroup;
 			children = (
+				3E7EFB9726685241007FFC4B /* main */,
 				3EB6A44825F80C8900705F9C /* onboarding */,
 				3E1F496525E8513E00072B88 /* Assets.xcassets */,
 				3E6D2656262B9B2400DCFE3C /* Utilities.swift */,
@@ -131,11 +134,33 @@
 			path = "team-hack";
 			sourceTree = "<group>";
 		};
+		3E7EFB9726685241007FFC4B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				3EF31D23265EE6A10036694C /* apiPractice */,
+				3E7EFB9F26685368007FFC4B /* viewControllers */,
+				3E7EFB9C26685299007FFC4B /* Main.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		3E7EFB9F26685368007FFC4B /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E9B159E265788BB006CF457 /* ItemOneViewController.swift */,
+				3EF31D24265EE6FB0036694C /* redViewController.swift */,
+				3EED84F5265AEBBE001FDBC3 /* SpeechSynthesizer.swift */,
+				3EF31D1C265C7D480036694C /* CombinePractice.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 		3EB6A44825F80C8900705F9C /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				3EF7EF7925F9A3E700A6363E /* views */,
 				3EED84E1265ADE8D001FDBC3 /* viewControllers */,
+				3EF7EF6925F9673D00A6363E /* Onboarding.storyboard */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -143,18 +168,12 @@
 		3EED84E1265ADE8D001FDBC3 /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3EF31D23265EE6A10036694C /* apiPractice */,
-				3EF7EF6925F9673D00A6363E /* Onboarding.storyboard */,
 				3EB6A48D25F8394A00705F9C /* OnboardingViewController.swift */,
 				3EF5605A265745BF00D3109F /* PasswordResetViewController.swift */,
 				3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */,
 				3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */,
 				3EF7EF6C25F9923C00A6363E /* SIgnUpViewController.swift */,
-				3E9B159E265788BB006CF457 /* ItemOneViewController.swift */,
 				3EF7EF6F25F9925300A6363E /* LogInViewController.swift */,
-				3EED84F5265AEBBE001FDBC3 /* SpeechSynthesizer.swift */,
-				3EF31D1C265C7D480036694C /* CombinePractice.swift */,
-				3EF31D1F265C86980036694C /* ApiCaller.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -162,7 +181,7 @@
 		3EF31D23265EE6A10036694C /* apiPractice */ = {
 			isa = PBXGroup;
 			children = (
-				3EF31D24265EE6FB0036694C /* redViewController.swift */,
+				3EF31D1F265C86980036694C /* ApiCaller.swift */,
 				3EF31D28265EE9A90036694C /* ApiCall.swift */,
 			);
 			path = apiPractice;
@@ -291,6 +310,7 @@
 				3EF5606126574A4600D3109F /* newCon.json in Resources */,
 				3EE6451325FF3BD9004E518C /* emailEnvalope.json in Resources */,
 				3EED84FE265AF954001FDBC3 /* redButtonAnimation.json in Resources */,
+				3E7EFB9D26685299007FFC4B /* Main.storyboard in Resources */,
 				3E2DDC4C25E8DDE100408984 /* rocket.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
