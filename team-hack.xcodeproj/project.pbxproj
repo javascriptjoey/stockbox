@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0B34A22669665B00D2B9DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B34A12669665B00D2B9DA /* FirstViewController.swift */; };
 		3E1F495D25E8513C00072B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F495C25E8513C00072B88 /* AppDelegate.swift */; };
 		3E1F495F25E8513C00072B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F495E25E8513C00072B88 /* SceneDelegate.swift */; };
 		3E1F496625E8513E00072B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F496525E8513E00072B88 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		3E2E831125FF302400D81F93 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */; };
 		3E6D2657262B9B2400DCFE3C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D2656262B9B2400DCFE3C /* Utilities.swift */; };
 		3E7EFB9D26685299007FFC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7EFB9C26685299007FFC4B /* Main.storyboard */; };
+		3E7EFBA72669536E007FFC4B /* CoolAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EFBA62669536E007FFC4B /* CoolAnimationViewController.swift */; };
 		3E93661D25FEE10B00E7F6F8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */; };
 		3E9B159F265788BB006CF457 /* ItemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B159E265788BB006CF457 /* ItemOneViewController.swift */; };
 		3EA3B87D2602CAA200A13015 /* newStar.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3B87C2602CAA200A13015 /* newStar.json */; };
@@ -48,6 +50,7 @@
 /* Begin PBXFileReference section */
 		0265AF5A326129C0D982B1C4 /* Pods-team-hack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team-hack.debug.xcconfig"; path = "Target Support Files/Pods-team-hack/Pods-team-hack.debug.xcconfig"; sourceTree = "<group>"; };
 		10F5B8ADB61BB4F13B0E88EC /* Pods_team_hack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_team_hack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0B34A12669665B00D2B9DA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3E1F495925E8513C00072B88 /* team-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "team-hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1F495C25E8513C00072B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E1F495E25E8513C00072B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		3E2E831025FF302400D81F93 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		3E6D2656262B9B2400DCFE3C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3E7EFB9C26685299007FFC4B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3E7EFBA62669536E007FFC4B /* CoolAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolAnimationViewController.swift; sourceTree = "<group>"; };
 		3E93661C25FEE10B00E7F6F8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		3E9B159E265788BB006CF457 /* ItemOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemOneViewController.swift; sourceTree = "<group>"; };
 		3EA3B87C2602CAA200A13015 /* newStar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newStar.json; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 		3E7EFB9F26685368007FFC4B /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3E7EFBA62669536E007FFC4B /* CoolAnimationViewController.swift */,
+				3E0B34A12669665B00D2B9DA /* FirstViewController.swift */,
 				3E9B159E265788BB006CF457 /* ItemOneViewController.swift */,
 				3EF31D24265EE6FB0036694C /* redViewController.swift */,
 				3EED84F5265AEBBE001FDBC3 /* SpeechSynthesizer.swift */,
@@ -364,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7EFBA72669536E007FFC4B /* CoolAnimationViewController.swift in Sources */,
 				3E93661D25FEE10B00E7F6F8 /* CreateAccountViewController.swift in Sources */,
 				3EF5605B265745BF00D3109F /* PasswordResetViewController.swift in Sources */,
 				3EF31D25265EE6FB0036694C /* redViewController.swift in Sources */,
@@ -372,6 +379,7 @@
 				3EF7EF7025F9925300A6363E /* LogInViewController.swift in Sources */,
 				3E2E831125FF302400D81F93 /* ResetPasswordViewController.swift in Sources */,
 				3E9B159F265788BB006CF457 /* ItemOneViewController.swift in Sources */,
+				3E0B34A22669665B00D2B9DA /* FirstViewController.swift in Sources */,
 				3EF31D1D265C7D480036694C /* CombinePractice.swift in Sources */,
 				3E1F495D25E8513C00072B88 /* AppDelegate.swift in Sources */,
 				3EF31D20265C86980036694C /* ApiCaller.swift in Sources */,
