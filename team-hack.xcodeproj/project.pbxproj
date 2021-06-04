@@ -45,6 +45,7 @@
 		3EF7EF7325F9A35A00A6363E /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7EF7225F9A35A00A6363E /* Slide.swift */; };
 		3EF7EF7625F9A38D00A6363E /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7EF7525F9A38D00A6363E /* Slide.xib */; };
 		CEC75960F4C8CBBAFFA0B27B /* Pods_team_hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F5B8ADB61BB4F13B0E88EC /* Pods_team_hack.framework */; };
+		D4E79B84266A7FE900DEF79F /* madeWith.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E79B83266A7FE900DEF79F /* madeWith.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		3EF7EF6F25F9925300A6363E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3EF7EF7225F9A35A00A6363E /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		3EF7EF7525F9A38D00A6363E /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		D4E79B83266A7FE900DEF79F /* madeWith.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = madeWith.json; path = ../../../../Downloads/madeWith.json; sourceTree = "<group>"; };
 		E8BC0A65C48095CAD8D66581 /* Pods-team-hack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team-hack.release.xcconfig"; path = "Target Support Files/Pods-team-hack/Pods-team-hack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 		3EF7EF6225F87E2100A6363E /* anim */ = {
 			isa = PBXGroup;
 			children = (
+				D4E79B83266A7FE900DEF79F /* madeWith.json */,
 				3EED84FD265AF954001FDBC3 /* redButtonAnimation.json */,
 				3EED84DD265AD35B001FDBC3 /* robot.json */,
 				3EF5606026574A4600D3109F /* newCon.json */,
@@ -311,6 +314,7 @@
 				3EF7EF6A25F9673D00A6363E /* Onboarding.storyboard in Resources */,
 				3EE6451826005838004E518C /* star.json in Resources */,
 				3EE6451025FF3986004E518C /* testKeys.json in Resources */,
+				D4E79B84266A7FE900DEF79F /* madeWith.json in Resources */,
 				3EF5604B265721F300D3109F /* madeWithLove.json in Resources */,
 				3EB6A49725F87C8A00705F9C /* future.json in Resources */,
 				3EF5606126574A4600D3109F /* newCon.json in Resources */,

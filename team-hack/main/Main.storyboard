@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7BF-i0-w3y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7BF-i0-w3y">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -182,38 +183,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-Gp-yMg">
-                                <rect key="frame" x="20" y="101" width="374" height="126"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="62"/>
-                                <color key="textColor" red="1" green="0.2886372572" blue="0.65489700370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rL-yW-TNj">
-                                <rect key="frame" x="122" y="418" width="171" height="61"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-np-HFM" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="20" y="221" width="374" height="282"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="cNC-Tl-VQA"/>
+                                    <constraint firstAttribute="height" constant="282" id="aj7-h2-73L"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <color key="textColor" red="0.071066520290000004" green="0.21812485200000001" blue="0.097714490730000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m5I-Gg-kpC"/>
-                        <color key="backgroundColor" red="0.61958974229999997" green="1" blue="0.78030422840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="m5I-Gg-kpC" firstAttribute="trailing" secondItem="0rL-yW-TNj" secondAttribute="trailing" constant="121" id="Tm4-qO-2Y3"/>
-                            <constraint firstItem="0rL-yW-TNj" firstAttribute="leading" secondItem="m5I-Gg-kpC" secondAttribute="leading" constant="122" id="bbR-fA-aWf"/>
-                            <constraint firstItem="m5I-Gg-kpC" firstAttribute="bottom" secondItem="0rL-yW-TNj" secondAttribute="bottom" constant="334" id="j3z-dR-UvE"/>
+                            <constraint firstItem="m5I-Gg-kpC" firstAttribute="bottom" secondItem="jrH-np-HFM" secondAttribute="bottom" constant="310" id="Ssd-p1-XAE"/>
+                            <constraint firstItem="jrH-np-HFM" firstAttribute="leading" secondItem="m5I-Gg-kpC" secondAttribute="leading" constant="20" id="gvq-kQ-Wbf"/>
+                            <constraint firstItem="m5I-Gg-kpC" firstAttribute="trailing" secondItem="jrH-np-HFM" secondAttribute="trailing" constant="20" id="kXq-13-8LC"/>
+                            <constraint firstItem="jrH-np-HFM" firstAttribute="top" secondItem="m5I-Gg-kpC" secondAttribute="top" constant="177" id="t3c-nv-mPn"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" largeContentSizeImage="square.and.arrow.up" catalog="system" id="Uel-g3-bcc">
                         <imageReference key="image" image="cart.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="animationView" destination="jrH-np-HFM" id="ngW-jd-8ZO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNV-KS-1nS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9158" y="2804"/>
+            <point key="canvasLocation" x="-9160.8695652173919" y="2803.7946428571427"/>
         </scene>
         <!--Red View Controller-->
         <scene sceneID="83n-ny-Ae1">
@@ -270,9 +266,6 @@
             <point key="canvasLocation" x="-7365" y="1956"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="Ove-GD-Vu6"/>
-    </designables>
     <resources>
         <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
@@ -280,5 +273,8 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="plus.message.fill" catalog="system" width="128" height="113"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

@@ -6,25 +6,28 @@
 //
 import Combine
 import UIKit
+
+
+
 class MyCustomTableCell: UITableViewCell{
-      
+    //MARK - Button
     private let button: UIButton = {
         let button = UIButton()
         button.backgroundColor = .systemPink
-        button.setTitle("Button", for: .normal  )
+        button.setTitle("Button Click: check terminal for responce", for: .normal  )
         button.setTitleColor(.white, for: .normal)
         return button
     }()
-    
+
     let action = PassthroughSubject<String, Never>()
-    
-    
+
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(button)
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
     }
-    
+
     @objc private func didTapButton(){
         action.send("Your doing some rad stuff joey")
     }
@@ -33,11 +36,12 @@ class MyCustomTableCell: UITableViewCell{
         fatalError()
     }
     
-    
+
     override func layoutSubviews() {
         button.frame = CGRect(x: 10, y: 3, width: contentView.frame.size.width-20, height: contentView.frame.size.height-6)
     }
 }
+
 
 class CombinePractice: UIViewController, UITableViewDataSource{
 
@@ -53,6 +57,7 @@ class CombinePractice: UIViewController, UITableViewDataSource{
     
     var observers: [AnyCancellable] = []
     
+    // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)

@@ -11,7 +11,7 @@ import ViewAnimator
 class CoolAnimationViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     private let myTable = UITableView()
-    let data = ["Animation effect: 01","Animation effect: 02","Animation effect: 03","Animation effect: 04","Animation effect: 05","Animation effect: 06","Animation effect: 07","Animation effect: 08","Animation effect: 09","Animation effect: 10"]
+    let data = ["Animation effect: 01","Animation effect: 02","Animation effect: 03","Animation effect: 04"]
     
     
     // MARK: - ViewdidLoad
@@ -47,7 +47,7 @@ class CoolAnimationViewController: UIViewController, UITableViewDelegate, UITabl
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
         }
-        
+        cell.textLabel?.textColor = .white
         return cell
     }
  
