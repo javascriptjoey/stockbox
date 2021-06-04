@@ -25,6 +25,7 @@
 		3EB6A49625F87C8A00705F9C /* bitcoin.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6A49225F87C8A00705F9C /* bitcoin.json */; };
 		3EB6A49725F87C8A00705F9C /* future.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6A49325F87C8A00705F9C /* future.json */; };
 		3EB6A49825F87C8A00705F9C /* rain.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6A49425F87C8A00705F9C /* rain.json */; };
+		3EDE1362266AAEBC00F8B2CD /* 48120-made-with-lottie-animated-text.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EDE1361266AAEBC00F8B2CD /* 48120-made-with-lottie-animated-text.json */; };
 		3EE6451025FF3986004E518C /* testKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6450F25FF3986004E518C /* testKeys.json */; };
 		3EE6451325FF3BD9004E518C /* emailEnvalope.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6451225FF3BD9004E518C /* emailEnvalope.json */; };
 		3EE6451826005838004E518C /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6451726005838004E518C /* star.json */; };
@@ -45,7 +46,6 @@
 		3EF7EF7325F9A35A00A6363E /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7EF7225F9A35A00A6363E /* Slide.swift */; };
 		3EF7EF7625F9A38D00A6363E /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7EF7525F9A38D00A6363E /* Slide.xib */; };
 		CEC75960F4C8CBBAFFA0B27B /* Pods_team_hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F5B8ADB61BB4F13B0E88EC /* Pods_team_hack.framework */; };
-		D41A85DE266AA80D00AEBC93 /* madeWith.json in Resources */ = {isa = PBXBuildFile; fileRef = D41A85DD266AA80D00AEBC93 /* madeWith.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +71,7 @@
 		3EB6A49225F87C8A00705F9C /* bitcoin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bitcoin.json; sourceTree = "<group>"; };
 		3EB6A49325F87C8A00705F9C /* future.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = future.json; sourceTree = "<group>"; };
 		3EB6A49425F87C8A00705F9C /* rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rain.json; sourceTree = "<group>"; };
+		3EDE1361266AAEBC00F8B2CD /* 48120-made-with-lottie-animated-text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "48120-made-with-lottie-animated-text.json"; sourceTree = "<group>"; };
 		3EE6450F25FF3986004E518C /* testKeys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testKeys.json; sourceTree = "<group>"; };
 		3EE6451225FF3BD9004E518C /* emailEnvalope.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emailEnvalope.json; sourceTree = "<group>"; };
 		3EE6451726005838004E518C /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
@@ -90,7 +91,6 @@
 		3EF7EF6F25F9925300A6363E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3EF7EF7225F9A35A00A6363E /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		3EF7EF7525F9A38D00A6363E /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
-		D41A85DD266AA80D00AEBC93 /* madeWith.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = madeWith.json; path = ../../../../Desktop/madeWith.json; sourceTree = "<group>"; };
 		E8BC0A65C48095CAD8D66581 /* Pods-team-hack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-team-hack.release.xcconfig"; path = "Target Support Files/Pods-team-hack/Pods-team-hack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,7 +198,7 @@
 		3EF7EF6225F87E2100A6363E /* anim */ = {
 			isa = PBXGroup;
 			children = (
-				D41A85DD266AA80D00AEBC93 /* madeWith.json */,
+				3EDE1361266AAEBC00F8B2CD /* 48120-made-with-lottie-animated-text.json */,
 				3EED84FD265AF954001FDBC3 /* redButtonAnimation.json */,
 				3EED84DD265AD35B001FDBC3 /* robot.json */,
 				3EF5606026574A4600D3109F /* newCon.json */,
@@ -308,7 +308,6 @@
 				3EB6A49625F87C8A00705F9C /* bitcoin.json in Resources */,
 				3E1F496625E8513E00072B88 /* Assets.xcassets in Resources */,
 				3EB6A49525F87C8A00705F9C /* water.json in Resources */,
-				D41A85DE266AA80D00AEBC93 /* madeWith.json in Resources */,
 				3EED84DE265AD35B001FDBC3 /* robot.json in Resources */,
 				3EF5605E2657495900D3109F /* confirmation.json in Resources */,
 				3EF7EF7625F9A38D00A6363E /* Slide.xib in Resources */,
@@ -316,6 +315,7 @@
 				3EE6451826005838004E518C /* star.json in Resources */,
 				3EE6451025FF3986004E518C /* testKeys.json in Resources */,
 				3EF5604B265721F300D3109F /* madeWithLove.json in Resources */,
+				3EDE1362266AAEBC00F8B2CD /* 48120-made-with-lottie-animated-text.json in Resources */,
 				3EB6A49725F87C8A00705F9C /* future.json in Resources */,
 				3EF5606126574A4600D3109F /* newCon.json in Resources */,
 				3EE6451325FF3BD9004E518C /* emailEnvalope.json in Resources */,

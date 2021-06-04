@@ -17,7 +17,7 @@ class ItemOneViewController: UIViewController {
         super.viewDidLoad()
 
         
-        let jsonName = "madeWith"
+        let jsonName = "48120-made-with-lottie-animated-text"
         let animation = Animation.named(jsonName)
         animationView.animation = animation
         animationView.play()
